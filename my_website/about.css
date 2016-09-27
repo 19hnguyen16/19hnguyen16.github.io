@@ -1,0 +1,70 @@
+@font-face{font-family: "Precious";
+	   src: url(fonts/Precious.ttf);
+}
+@font-face{font-family: "Otto";
+	   src: url(fonts/Otto.ttf);
+}
+@font-face{font-family: "VarianeScript";
+	   src: url(fonts/VarianeScript.ttf);
+}
+body {
+    background-color: 	#40E0D0;
+    font-family: "Verdana", Times, sans-serif;
+    color: #004d4d;
+    margin-left: 20px;
+}
+h1 {
+    color: white;
+    margin-left: 20px;
+    font-family: "Verdana", Times, sans-serif;
+}
+.list{
+    font-family: "Verdana", Times, sans-serif;
+    color: #004d4d;
+}
+table{
+    font-family: "Verdana", Times, sans-serif;
+    margin-left: left;
+    margin-right: left;
+    text-align: left;
+    border-collapse: collapse;
+}
+tr{
+    font-family: "Verdana", Times, sans-serif;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    color: #004d4d;
+    background-color: #80ffff;
+}
+th{
+    font-family: "Verdana", Times, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    background-color: #00cccc;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00b3b3;
+    font-family: "Verdana", Times, sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+    font-family: "Verdana", Times, sans-serif;
+}
+img {
+    border-radius: 8px;
+    margin-left: 20px;
+}

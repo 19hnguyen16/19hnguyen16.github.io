@@ -1,0 +1,31 @@
+body {
+    background-color: 	#40E0D0;
+    font-family: "Verdana", Times, sans-serif;
+}
+h1 {
+    color: white;
+    margin-left: 20px;
+    font-family: "Verdana", Times, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00b3b3;
+    font-family: "Verdana", Times, sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+    font-family: "Verdana", Times, sans-serif;
+}
