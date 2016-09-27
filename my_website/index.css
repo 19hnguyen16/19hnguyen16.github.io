@@ -1,6 +1,8 @@
 body {
     font-family: "Verdana", Times, sans-serif;
-    background-image: url("images/index_wallpaper.jpg");
+    background-image: url("images/index_wallpaper_rain.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1 {
     color: white;
@@ -19,7 +21,10 @@ ul {
 li {
     float: left;
 }
-
+li a:hover {
+    background-color: #555;
+    color: white;
+}
 li a {
     display: block;
     color: white;
