@@ -41,11 +41,12 @@ li a {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 600px;
   position: relative;
-  margin: auto;
+  display: block;
+  overflow:visible;
+  text-align: left;
 }
-
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -143,7 +144,12 @@ hr.style-seven:before { /* Not really supposed to work, but does */
     border-width: 0 0 1px 0;
     border-radius: 20px;
 }
-
+.slideshow-img{
+    width: 100%;
+    max-width: 1000px;
+    min-width: 550px;
+    height: 380px;
+}
 
 /*#40E0D0; Turquoise
 #FF7F50; Light Orange
