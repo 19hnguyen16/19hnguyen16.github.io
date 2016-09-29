@@ -22,7 +22,7 @@ li {
     float: left;
 }
 li a:hover {
-    background-color: #555;
+    background-color: #ff3385;
     color: white;
 }
 li a {

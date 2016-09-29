@@ -8,7 +8,10 @@
 	   src: url(fonts/VarianeScript.ttf);
 }
 body {
-    background-color: 	#40E0D0;
+    background-image: url("images/index_slideshow_railroad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color:	#40E0D0;*/
     font-family: "Verdana", Times, sans-serif;
     color: #004d4d;
     margin-left: 20px;
@@ -33,24 +36,29 @@ tr{
     font-family: "Verdana", Times, sans-serif;
     border: 1px solid #FFFFFF;
     text-align: center;
-    color: #004d4d;
-    background-color: #80ffff;
+    color: black; /*#004d4d;*/
+    background-color: #ff3333; /*#80ffff;*/
 }
 th{
     font-family: "Verdana", Times, sans-serif;
     text-align: center;
     color: #ffffff;
-    background-color: #00cccc;
+    background-color: #b30000; /*#00cccc;*/
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #00b3b3;
+    background-color: #b30000; /*#00b3b3;*/
     font-family: "Verdana", Times, sans-serif;
+    background: linear-gradient(#b30000, #ff3385); /* Standard syntax (must be last) */
 }
-
+}
+li a:hover {
+    background-color: white;
+    color: white;
+}
 li {
     float: left;
 }
