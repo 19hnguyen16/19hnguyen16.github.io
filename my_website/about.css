@@ -8,7 +8,7 @@
 	   src: url(fonts/VarianeScript.ttf);
 }
 body {
-    background-image: url("images/index_slideshow_railroad.jpg");
+    background-image: url("images/about_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /*background-color:	#40E0D0;*/

@@ -1,6 +1,13 @@
 body {
-    background-color: 	#40E0D0;
+    background-image: url("images/portfolio_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: #40E0D0;*/
     font-family: "Verdana", Times, sans-serif;
+}
+li a:hover {
+    background-color: #ff3385;
+    color: white;
 }
 h1 {
     color: white;
@@ -12,7 +19,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #00b3b3;
+    background-color: #b30000;
     font-family: "Verdana", Times, sans-serif;
 }
 
