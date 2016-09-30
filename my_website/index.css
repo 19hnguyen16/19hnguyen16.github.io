@@ -150,7 +150,15 @@ hr.style-seven:before { /* Not really supposed to work, but does */
     min-width: 550px;
     height: 380px;
 }
-
+p{
+  color: white;
+  font-size: 18px;
+  margin-left: 16px;
+}
+h1{
+  font-size: 45px;
+  color: white;
+}
 /*#40E0D0; Turquoise
 #FF7F50; Light Orange
 #DC143C; Crimmson
