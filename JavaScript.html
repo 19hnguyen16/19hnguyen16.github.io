@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript Practice</title>
+    </head>    
+    <body>
+        <h1>JavaScript will find the time in the browser.</h1>
+        <script type="text/javascript">
+            var current = new Date();
+            var hours = current.getHours();
+            var minutes = current.getMinutes();
+            var seconds = current.getSeconds();
+            var suffix = "AM";
+            
+            if (seconds < 10)
+                seconds = "0" + seconds;
+            
+            if (minutes < 10)
+                minutes = "0" + minutes;
+                
+            if (hours >= 12)
+            {    
+                hours = hours - 12;
+                suffix = "PM";
+            }
+            
+            if (hours === 0)
+                hours = 12;
+                
+            document.write("<p>" + hours + ":" + minutes + ":" + seconds + " " + suffix + "</p>");
+        </script>
+    </body>
+</html>
