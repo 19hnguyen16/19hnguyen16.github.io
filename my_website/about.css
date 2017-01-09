@@ -55,7 +55,7 @@ ul {
     background: linear-gradient(#b30000, #ff3385); /* Standard syntax (must be last) */
 }
 li a:hover {
-    background-color: white;
+    background-color: #ff3385;
     color: white;
 }
 li {
