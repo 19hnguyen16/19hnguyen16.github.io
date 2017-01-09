@@ -58,3 +58,24 @@ hr.style-seven:before { /* Not really supposed to work, but does */
 p{
     color: white;
 }
+table{
+    font-family: "Verdana", Times, sans-serif;
+    margin-left: 300px;
+    margin-right: 350px;
+    text-align: left;
+    border-collapse: collapse;
+}
+td{
+    font-family: "Verdana", Times, sans-serif;
+    border: 5px solid #FFFFFF;
+    text-align: center;
+    color: black; /*#004d4d;*/
+    background-color: #ff3333; /*#80ffff;*/
+    width: 500px;
+}
+th{
+    font-family: "Verdana", Times, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    background-color: #b30000; /*#00cccc;*/
+}

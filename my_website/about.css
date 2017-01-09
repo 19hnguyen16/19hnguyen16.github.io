@@ -54,7 +54,6 @@ ul {
     font-family: "Verdana", Times, sans-serif;
     background: linear-gradient(#b30000, #ff3385); /* Standard syntax (must be last) */
 }
-}
 li a:hover {
     background-color: white;
     color: white;
